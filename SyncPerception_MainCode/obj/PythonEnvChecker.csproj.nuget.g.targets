@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.win32\2.88.6\buildTransitive\net462\SkiaSharp.NativeAssets.Win32.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.win32\2.88.6\buildTransitive\net462\SkiaSharp.NativeAssets.Win32.targets')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.macos\2.88.6\buildTransitive\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.macos\2.88.6\buildTransitive\net462\SkiaSharp.NativeAssets.macOS.targets')" />
+  </ImportGroup>
+</Project>

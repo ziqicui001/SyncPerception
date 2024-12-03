@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings> <!-- 禁用 ImplicitUsings -->
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pythonnet" Version="3.0.4" />
+    <PackageReference Include="TorchSharp" Version="0.103.1" />
+    <Reference Include="RhinoCommon">
+     <HintPath>C:\Program Files\Rhino 7\System\RhinoCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="Grasshopper">
+      <HintPath>C:\Program Files\Rhino 7\Plug-ins\Grasshopper\Grasshopper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <!-- 添加图标资源 -->
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\depth.png" />
+    <EmbeddedResource Include="Resources\image.png" />
+    <EmbeddedResource Include="Resources\node.png" />
+    <EmbeddedResource Include="Resources\edge.png" />
+    <EmbeddedResource Include="Resources\05.png" />
+    <EmbeddedResource Include="Resources\safe.png" />
+    <EmbeddedResource Include="Resources\wea.png" />
+    <EmbeddedResource Include="Resources\bor.png" />
+    <EmbeddedResource Include="Resources\live.png" />
+    <EmbeddedResource Include="Resources\bea.png" />
+    <EmbeddedResource Include="Resources\dep.png" />
+  </ItemGroup>
+
+</Project>

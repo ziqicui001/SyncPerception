@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = PythonEnvChecker
+build_property.ProjectDir = D:\CV+GNN\application\gh_plugin_VS\SyncPerception\
